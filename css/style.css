@@ -1,3 +1,8 @@
+*{
+  scroll-behavior: smooth;
+}
+
+
 header{
     font-family: "prompt", sans-serif;
 }
@@ -6,9 +11,26 @@ header{
     background-color: #780101;
 }
 
+main{
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    
+}
+body {
+  background-image: url(https://i.pinimg.com/1200x/30/5e/9c/305e9cb67f4caf9e15c281f412f4121c.jpg);
+  
+  /* จัดตำแหน่งให้อยู่ตรงกลางและครอบคลุมเต็มหน้าจอ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* ทำให้พื้นหลังอยู่นิ่งๆ ตอน Scroll หน้าเว็บ */
+}
+
+/*
 body{
     background-color: #cfe7ff;
 }
+*/
 
 span{
     color: rgb(76, 139, 211);
@@ -20,3 +42,11 @@ span{
     font-weight: bold;
     font-style: normal;
     }
+
+
+.btn-outline:hover {
+  background-color: #fef3c7 !important;
+  color: #b45309 !important;
+  border-color: #fcd34d !important;
+}
+
