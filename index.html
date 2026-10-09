@@ -3,43 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>My Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>My Profile</title>
   </head>
   <body>
+    
+    <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-sm bg-warning ">
-          <div class="container-fluid p-3 ">
-            <a href="#" class="navbar-brand">My Profile</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggle">
-              <ul class="navbar-nav">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid px-3 p-1">
+          <a class="navbar-brand ms-3 text-light" href="#"><b>My Profile</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="#aboutme" class="nav-link">About me</a>
+                <a href="#home" class="nav-link text-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#aboutme" class="nav-link text-light">About me</a>
               </li>
               <li class="nav-item dropdown">
-                <a href="#portfolio" class="nav-link dropdown-toggle" 
-                data-bs-toggle="dropdown">Portfolio</a>
-                <ul class="dropdown-menu">
+                <a href="#portfolio" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu bg-warning-subtle">
                   <li>
-                    <a href="" class="dropdown-item">work1</a>
+                    <a href="#" class="dropdown-item">work1</a>
                   </li>
                   <li>
-                    <a href="" class="dropdown-item">work2</a>
+                    <a href="#" class="dropdown-item">work2</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link ">other</a>
+                <a href="#contact" class="nav-link text-light">Contact & others</a>
               </li>
             </ul>
-            </div>
           </div>
-       </nav>
+        </div>
+      </nav>
     </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
