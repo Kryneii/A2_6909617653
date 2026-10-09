@@ -1,9 +1,22 @@
-.container-fluid{
+header{
+    font-family: "prompt", sans-serif;
+}
+
+.navbar{
     background-color: #780101;
 }
 
+body{
+    background-color: #cfe7ff;
+}
 
-.custom-dropdown .dropdown-item.active {
-    background-color: lightblue !important;
-    color: #212529 !important;
-  }
+span{
+    color: rgb(76, 139, 211);
+}
+
+#home{
+    font-size: larger;
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    }
