@@ -33,10 +33,10 @@
                 <a href="#portfolio" class="nav-link dropdown-toggle text-light fs-5" data-bs-toggle="dropdown">Portfolio</a>
                 <ul class="dropdown-menu bg-warning-subtle">
                   <li>
-                    <a href="#" class="dropdown-item">work1</a>
+                    <a href="#work1" class="dropdown-item">Rating Component</a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown-item">work2</a>
+                    <a href="#work2" class="dropdown-item">My first Portfolio</a>
                   </li>
                 </ul>
               </li>
@@ -50,8 +50,8 @@
     </header>
     
     <!--home-->
-    <main class="container" id="home">
-      <div class="row col-12 justify-content-center  pt-5 text-center my-5 d-flex align-items-center">
+    <main class="container-fluid border border-3 border-secondary" id="home">
+      <div class="row col-12 justify-content-center pt-5 text-center my-5 d-flex align-items-center">
         <br>
         <p class="mb-1 fs-3 fw-semibold py-2"><span class="text-dark fs-1">Hello,</span> My name is</p>
         <h1 class="fs-1 fw-bold mb-2 text-uppercase text-dark pb-2">Nikulpron Nantiphakmoonkit</h1>
@@ -74,10 +74,9 @@
     <section id="aboutme" class="pb-4 ">
       <div class="container py-5 ">
         <div class="row align-items-center">
-          
             
-            <div class="col-md-7 order-2 order-md-1 shadow-lg bg-warning-subtle rounded-4 p-4 ">
-              <h1 class="title fw-bold mb-4">About me <i class="fa-regular fa-star "></i></h1>
+            <div class="col-md-7 order-2 order-md-1 shadow-lg bg-warning-subtle rounded-4 p-4 border border-danger border-4">
+              <h1 class="title fw-bold mb-4">About me <i class="fa-regular fa-star text-warning "></i></h1>
                 <h2 class="fs-2 fw-bolder mb-4">
                   Nikulpron Nantiphakmoonkit
                 </h2>
@@ -89,7 +88,7 @@
                 <div class="row align-items-center">
                   <div class="Skill col-lg-6 col-md-6  pe-0">
                     <h2 class="fs-3 fw-bold mt-4">Skill:</h2>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled fw-semibold">
                       <li><i class="fa-brands fa-html5 me-2"></i>HTML5</li>
                       <li><i class="fa-brands fa-css3-alt me-2"></i>CSS3</li>
                       <li><i class="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</li>
@@ -98,15 +97,15 @@
                   </div>
                   <div class="Interested col-lg-6 col-md-6 ">
                     <h2 class="fs-3 fw-bold mt-3">Interested:</h2>
-                    <ul type="circle">
+                    <ul type="circle" class="fw-semibold">
                       <li>Data Science</li>
                       <li>Web Development</li>
                       <li>AI</li>
                       <li>etc.</li>
                     </ul>
-                </div>     
+                 </div>     
 
-                  </div>
+                </div>
                 
             </div>
 
@@ -119,6 +118,60 @@
       </div>
     </section>
    
+    <!--Portfolio-->
+    <section class="Portfolio" id="portfolio">
+      <div class="container">
+            <h1 class="title fw-bold mb-4">Portfolio<i class="fa-solid fa-list-check ms-3 text-primary"></i></h1>
+            <div class="row g-4">
+              <div class="col-lg-6">
+                <div class="card mb-5 border border-warning-subtle border-5" id="work2">
+                  <div class="card-body">
+                    <h3 class="card-title fw-semibold mb-4">My first Portfolio<i class="fa-solid fa-circle-user ms-2"></i></h3>
+                    <span class="text-success  rounded-4 border border-3 border-secondary px-2 py-1">Course Assignment</span>
+                    <h6 class="card-subtitle mb-2 text-muted  mb-1 mt-3"><i class="fa-solid fa-calendar me-2"></i>30/08/2026</h6>
+                    <h6 class="card-subtitle mb-3"><i class="fa-solid fa-user-tag me-2 "></i>Developer</h6>
+                    <h5 class="card-subtitle fw-semibold">Description:</h5>
+                    <p class="card-text">This is my first webpage, designed to showcase my personal portfolio and assignment Q&A.
+                    </p>
+                    <h5 class="card-subtitle fw-semibold">Skill:</h5>
+                    <p class="card-text">HTML5, CSS3</p>
+                    <h5 class="card-subtitle fw-semibold">Reflection:</h5>
+                    <p class="card-text">I created this webpage to present my personal details and assignment Q&A.
+                       I learned the fundamentals of building a webpage using HTML and CSS. The main challenge was that 
+                       I had never built a webpage with HTML and CSS before, 
+                       but I learned a lot from YouTube tutorials and used AI to help troubleshoot and verify my code.
+                       For my next step, I want to design an even more beautiful and polished portfolio webpage.</p>
+                    <p class="card-text mb-4"></p>
+                    <a href="https://kryneii.github.io/Assignment1_CS100/" class="btn btn-warning bg-warning-subtle shadow-lg rounded-4 mb-4 ">My Performance &gt;&gt;</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card mb-5 border border-warning-subtle border-5" id="work1">
+                  <div class="card-body">
+                    <h3 class="card-title fw-semibold mb-4">Rating Component<i class="fa-solid fa-star ms-2"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></h3>
+                    <span class="text-success  rounded-4 border border-3 border-secondary px-2 py-1">Course Assignment</span>
+                    <h6 class="card-subtitle mb-2 text-muted  mb-1 mt-3"><i class="fa-solid fa-calendar me-2"></i>01/10/2026</h6>
+                    <h6 class="card-subtitle mb-3"><i class="fa-solid fa-user-tag me-2 "></i>Developer</h6>
+                    <h5 class="card-subtitle fw-semibold">Description:</h5>
+                    <p class="card-text">I practiced building a rating component using Bootstrap.</p>
+                    <h5 class="card-subtitle fw-semibold">Skill:</h5>
+                    <p class="card-text">HTML5, BOOTSTRAP5, CSS3</p>
+                    <h5 class="card-subtitle fw-semibold">Reflection:</h5>
+                    <p class="card-text">I completed this project following the given assignment to learn how to use Bootstrap, 
+                      such as progress bars. It was a challenge because it was my first time building a project with Bootstrap, 
+                      but my teacher taught me step-by-step, with some help from Gemini. For my next step, 
+                      I would like to add a backend and database to make the project fully complete.</p>
+                    <p class="card-text mb-4"></p>
+                    <a href="https://kryneii.github.io/M08_RatingComponent--Reg/" class="btn btn-warning bg-warning-subtle shadow-lg rounded-4 mb-4 ">My Performance &gt;&gt;</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+      </div>
+    </section>
+
 
 
           

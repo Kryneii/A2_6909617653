@@ -4,12 +4,28 @@
     
 }
 
+body {
+    /* ใส่ลิงก์รูปภาพพื้นหลังของคุณตรง url() */
+    background-image: url('https://i.pinimg.com/1200x/30/5e/9c/305e9cb67f4caf9e15c281f412f4121c.jpg');
+    
+    /* ให้รูปภาพขยายเต็มพื้นที่และครอบคลุมหน้าจอพอดี */
+    background-size: cover;
+    
+    /* จัดตำแหน่งรูปให้อยู่กึ่งกลางเสมอ */
+    background-position: center;
+    
+    /* ป้องกันไม่ให้รูปภาพแสดงซ้ำเป็นตาราง */
+    background-repeat: no-repeat;
+    
+    /* ตรึงรูปพื้นหลังไว้กับที่ (เวลาเลื่อนดูหน้าเว็บ พื้นหลังจะนิ่งอยู่กับที่ สวยงามมากครับ) */
+    background-attachment: fixed;
+}
 
 
-
-#home{
-    padding: 60px ;
+main{
     background-color:#ecf6ff;
+    padding: 60px;
+    
 }
 .navbar{
     background-color: #780101;
@@ -37,4 +53,5 @@ span{
   color: #b45309 !important;
   border-color: #fcd34d !important;
 }
+
 
