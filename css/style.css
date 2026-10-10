@@ -45,13 +45,12 @@ span{
     color: rgb(76, 139, 211);
 }
 
-
-
-
 .btn-outline:hover {
   background-color: #fef3c7 !important;
   color: #b45309 !important;
   border-color: #fcd34d !important;
 }
 
-
+footer{
+    background-color: #780101;
+}
