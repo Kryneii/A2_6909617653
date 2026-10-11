@@ -45,7 +45,7 @@ span{
     color: rgb(76, 139, 211);
 }
 
-.btn-outline:hover {
+.btn:hover {
   background-color: #fef3c7 !important;
   color: #b45309 !important;
   border-color: #fcd34d !important;
